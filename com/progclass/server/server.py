@@ -8,6 +8,8 @@ import time
 import zmq
 import logging
 
+print("This is kino... testing commit")
+
 # Initialize logging example
 logging.basicConfig(filename='server.log', filemode='w', format='%(asctime)s - %(levelname)s - SERVER - %(message)s', datefmt='%d-%b-%y %H:%M:%S')
 logging.warning('This will get logged to a file')
